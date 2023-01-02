@@ -1,0 +1,135 @@
+*{
+	padding: 0px; ;
+	margin:0px;
+	box-sizing:border-box;
+}
+.btn{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	background:transparent;
+	color:white;
+	font-size: 18px;
+	border: 2px solid white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.btn1{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	background:white;
+	color:black;
+	font-size: 18px;
+	border: 2px solid white;
+	cursor: pointer;	
+}
+.btn:hover{
+	background: transparent;
+}
+body{
+	font-family: sans-serif;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	border-top: 0.5rem solid red;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 15%;
+	font-weight: 700;
+	background: red;
+	border-radius: 5px;
+}
+.laa{
+	color: aliceblue;
+}
+.logo::before{
+	content: "Coding";
+	color: white;
+}
+.logo::after{
+	content: "Lab";
+	color: black;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+ul a{
+	color: black;
+	margin: 0 30px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+ul a:hover{
+	color: red;
+}
+
+.banner{
+	background: url(img/banner2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 85vh;
+}
+
+.intro{
+	position:fixed;
+	top: 30%;
+	left: 30%;
+	color: white;
+}
+
+.intro h2,p{
+	display: block;
+	width: 100%;
+}
+
+.intro h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+.intro .btn{
+	margin-top: 32px;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+.card{
+	width: 33.3%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+	align-items:center;
+}
+.card h2{
+	text-transform: uppercase;
+}
+footer{
+	background: rgba(1, 1, 1, 0.317);
+	font-family: Cambria;
+	margin-top: 5px;
+	padding: 30px;
+	text-align: center;
+
+}
+footer hr{
+	margin-top: 5px;
+}

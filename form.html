@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>Login Page</title>
+<style>
+    .banner{
+	background: url(img/2.png);
+	background-size: cover;
+    height: 150vh;
+}
+body{
+    color:aliceblue;
+}
+*{
+	padding: 0px; ;
+	margin:0px;
+	box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    
+
+<form>
+
+<div align="center">  
+<div class="banner">
+<h1>Login Page</h1>
+Enter your name:
+
+<input type="text" name="Name" size=30% maxlength=35 required>
+
+</br></br>
+Enter your Email:
+<input type="text" name="Email" size=30% required> </br> </br>
+Phone number:
+<input type="tel" name="phone" size=30% required><br><br>
+
+Do you exercise at home?
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</br></br>
+<input type="submit" value="Submit form" onclick="msg()">
+<p>To return to the main page<a href="Gold's Gym.html"> Click Here</a></p>
+</div>
+</div>
+</form>
+
+<script>
+    function msg(){
+        alert("Information Submited")
+    }
+</script>
+</body>
+</html>
